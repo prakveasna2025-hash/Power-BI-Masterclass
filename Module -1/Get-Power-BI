@@ -44,3 +44,32 @@ The DirectQuery option is useful when you don't want to save local copies of you
 
 Dual (Composite mode)
 In Dual mode, you can identify some data to be directly imported and other data that must be queried. Any table that is brought in to your report is a product of both Import and DirectQuery modes. Using the Dual mode allows Power BI to choose the most efficient form of data retrieval.
+
+
+1. When connecting to a SQL Server database to get data, what language should you use to extract data?
+
+DAX
+
+T-SQL
+Correct. T-SQL is the query language that you would use for SQL Server.
+
+
+MDX
+2. You're creating a Power BI report with data from an Azure Analysis Services MDX Cube. When the data refreshes in the cube, you would like to see it immediately in the Power BI report. How should you connect?
+
+Import
+
+T-SQL 
+
+Live connection
+Correct. This will reflect cube changes immediately.
+
+3. What can you do to improve performance when you're getting data in Power BI?
+
+Remove unnecessary columns and rows
+Correct. Always use the least amount of data needed for your project.
+
+
+Export database files to CSV to load
+
+Combine date and time columns into a single column
